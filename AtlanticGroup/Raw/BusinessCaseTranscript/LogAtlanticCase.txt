@@ -1,0 +1,45 @@
+InnovMatch
+
+Project that allows programmers and consultants to solve problems from the real 
+world using SAP Cloud technologies. 
+
+Atlantic Group
+
+Wanted to improve their logistics, not something fancy such as analytics. 
+Atlantic Group has a digital transformation plan: need to have the basic 
+technologies up and running first before doing machine learning, establish a 
+technological foundation, want to get more out of existing technologies.
+
+Has a large IoT project for syncing a lot of coffee machines and a project for 
+trying to predict employee attrition rate.
+
+Have a logistic process made up of three diagrams.
+Problem: the whole delivery process is invisible to the customer and
+some processes are also invisible to the Atlantic Group as well.
+Improvements: want to implement surveillance (of the driver, of huge importance!),
+want to know what happens on the field (during the trip), want to track every 
+part of the process.
+Some processes can be eliminated as they are not needed if they are completed 
+digitally. Eliminate the paperwork, do it digitally with a digital archive.
+Dispatchers have a lot of calls asking about why the goods haven't been 
+delivered to the customer. These calls are made by the sales force.
+
+When an order is given, the orders should be tracked by both the customer and 
+Atlantic Group. Info should be extracted effortlessly for analysis. Track the 
+delivery process and make sure the papers are digitised (electronic signature, 
+by being able to edit orders on the field [cross out 100, put 80 and deliver 20 
+goods back to the warehouse]).
+
+Make the app as simple as possible as a driver has to be able to use it without 
+training.
+
+Once you start collecting all of this data, try to do something with it.
+
+The customer will need to have a paper copy of the delivery, but Atlantic Group
+wants to replace their paper documents with digital ones.
+
+Integration points with an existing solution: they have it, but should be asked
+through email.  Integration is not as important.
+
+For a proof of concept (which is all they are asking for), integration is not a 
+major point.

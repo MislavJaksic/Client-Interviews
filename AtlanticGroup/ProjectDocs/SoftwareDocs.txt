@@ -1,0 +1,113 @@
+## Project documentation
+
+### Problems
+
+P1) Atlantic Group has to process, validate and store a large volume of 
+superfluous physical papers.
+
+P2) Atlantic Group is notified about the delivery being turned down (due to 
+being late) too late. 
+
+P3) Customers and Atlantic Group employees don't see the state of the goods 
+delivery in the supply chain process.
+ 
+P4) Atlantic Group doesn't process customer complaints.
+
+P5) Atlantic Group doesn't track the travel time between locations, time spent 
+on each delivery step, delivery sequence or any other useful piece of 
+information produced during the goods delivery.
+
+P6) Phone calls between the truck drivers and the dispatching service or the 
+forwarding agent ("expedition" stands for "shpedicija") take a long time.
+
+### Requirements and functionalities
+
+A) "Better delivery status tracking": customers and Atlantic Group employees 
+should see the current status of deliveries.
+
+B) "Display planned routes and key information to drivers": external and internal 
+drivers should see the driving directions (and other key information?).
+
+C) "Real time confirmation of delivery": when the customer signs the delivery
+note, the central system should receive the message.
+
+D) "Communication with dispatching service": drivers and dispatchers should 
+communicate using a method other then by a phone call.
+
+E) "Digital customer complaint ("reclamation") and correctional documents": 
+customer complaints should be handled automatically and digitally.
+
+F) "Avoid numerous phone calls to dispatcher and forwarding agent ("expedit" is 
+not a word) about delivery status": subsumed under D).
+
+G) "Analysis capabilities": gather data and provide the means to analyse it.
+
+The above was extracted from: *Source One
+
+1) "External availability of order status information": subsumed under A).
+
+2) "Complete visibility of order delivery status": subsumed under A).
+
+3) "Possibility to complete delivery information": customer can digitally sign a 
+delivery note.
+
+4) "Initiate customer complaints": subsumed under E).
+
+5) Note: "... all requested ERP integration features should initially be provided 
+through simple export in some database table."
+
+6) "Customers should have access to current order processing status": subsumed 
+under A)
+
+7) "Customer can choose to get email alerts when order status changes": customers 
+can select deliveries from which they want to receive emails if the delivery 
+status changes.
+
+STOPPED AT COMPONENT 2: http://www.innovmatch.com/challenges
+
+
+The above was extracted from: *Source Two
+
+### Architecture
+
+- Program organisation
+
+| Building blocks | Role and responsibility | Covers requirements | Communicates with |
+| -- | -- | -- | -- |
+|  |  |  |  |
+
+- Major classes
+  - Class hierarchy
+
+  - State transitions
+  
+  - Object persistence
+
+| Class | Responsibility | Interacts with |
+| -- | -- | -- |
+|  |  |  |
+
+- Data design -
+- Business rules -
+- User interface -
+- Resource management -
+- Security -
+- Performance -
+- Scalability -
+- Internationalisation and localisation -
+- Input and output -
+- Error processing -
+- Fault tolerance -
+- Architectural feasibility -
+- Overengineering and robustness -
+- Buy vs build decision -
+- Reuse decision -
+- Change strategy -
+- General architectural quality -
+
+### Programming conventions
+
+Source One: extracted from the Atlantic Group's presentation (slide 11)
+
+Source Two: extracted from http://www.innovmatch.com/challenges (Atlantic Grupe
+tab)

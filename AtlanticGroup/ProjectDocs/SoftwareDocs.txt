@@ -29,7 +29,7 @@ B) "Display planned routes and key information to drivers": external and interna
 drivers should see the driving directions (and other key information?).
 
 C) "Real time confirmation of delivery": when the customer signs the delivery
-note, the central system should receive the message.
+note, the central system should receive the message about the event.
 
 D) "Communication with dispatching service": drivers and dispatchers should 
 communicate using a method other then by a phone call.
@@ -63,8 +63,25 @@ under A)
 can select deliveries from which they want to receive emails if the delivery 
 status changes.
 
-STOPPED AT COMPONENT 2: http://www.innovmatch.com/challenges
+8) "Getting all the data for deliveries from ERP": goods delivery data should be 
+transferred from the database to the software
 
+9) "Planning today’s route": subsumed under B)
+
+10) "Real-time confirmation of delivery": subsumed under C)
+
+11) "Integration of all correctional documents": subsumed under E)
+
+12) "Tracking status and current position of trucks": subsumed under B) and D)
+
+13) "Option for customers to see which truck is delivering their order":
+subsumed under A)
+
+14) "Collecting returns from the customer": when customers sign the delivery 
+note, but return some goods, the central system should receive the message about 
+the event.
+
+15) "Complete reporting and analysis capabilities": subsumed under G)
 
 The above was extracted from: *Source Two
 

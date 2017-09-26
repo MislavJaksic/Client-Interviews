@@ -1,0 +1,50 @@
+## InnovMatch 
+
+If you have specific technical questions, you can ask them: how?
+
+Give a video pitch which last for about 3 minutes (not more) which shows a 
+Minimum Viable Product (not a mock up or wireframe).
+
+There will be 5 winners in the business case phase (called partner phase) and 5 
+winners in "pitch your own idea and solution" phase (called international phase).
+
+All solutions should be developed in SAP technologies.
+
+
+### SAP Cloud Platform
+
+Platform as a service. Can run in many different data centers, not only SAP data
+centers. Bimodal (origin of the term? meaning of the term?), mode one and mode 
+two applications. We are developing mode two applications.
+
+Make a better UI. The new SAP UI is called Fiori.
+Fiori: users will only see the functionality that they need to see; runs 
+transactional data and (? didn't hear it) data together.
+
+Companies that make use of SAP technologies:
+
+glu (mobile game company) uses SAP Big Data technologies to improve User 
+Experience (UX) by looking at all kinds of data collected through their 
+applications (which avatars are purchased, which games are downloaded the most, 
+with which functionalities does the user engage the most and many more).
+
+Shop Up: detects where customers go in their store.
+
+IoT solutions: precision agriculture, sync traffic lights to let ambulances 
+through and many more.
+
+Waberer's Optimum Solution/Pirelli: a very similar problem to Atlantic Groups 
+problem; truck cargo fleet magagement, analysis and driver control.
+
+Semos: gameification; employees can rate one another and buy items 
+from the store with earned points.
+
+postNL: exposes data to e-commerce websites.
+
+apollogic: reports fiscal data towards Polish Fiscal Authority.
+
+You can bring data from the on-premise database to the cloud using a Cloud 
+Connector. Cloud Connectors create a VPN between the Cloud and the on-premise 
+system.
+?A destination is what connects to the cloud.
+?Trust management and authorization.

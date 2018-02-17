@@ -34,9 +34,9 @@ IoT solutions: precision agriculture, sync traffic lights to let ambulances
 through and many more.
 
 Waberer's Optimum Solution/Pirelli: a very similar problem to Atlantic Groups 
-problem; truck cargo fleet magagement, analysis and driver control.
+problem; truck cargo fleet management, analysis and driver control.
 
-Semos: gameification; employees can rate one another and buy items 
+Semos: gamification; employees can rate one another and buy items 
 from the store with earned points.
 
 postNL: exposes data to e-commerce websites.

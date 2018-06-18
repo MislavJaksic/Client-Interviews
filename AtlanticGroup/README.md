@@ -1,16 +1,13 @@
 ## Atlantic Group
 
-http://www.atlantic.hr/en/contacts/
+Atlantic Group were one of the five companies that participated in SAP's InnovMatch competition. There they presented
+their business case to the competitors.
 
-Atlantic Group were among five companies that participated in SAP's InnovMatch where they presented their business
-case.
+### HUB385 Slides
 
-### HUB385Slides
+Contains Atlantic Group's and SAP InnovMatch's official presentations as well as the notes I took during both.
 
-Contains Atlantic Group's and SAP InnovMatch's official presentations as well as the notes I took during the
-presentation.
-
-### Meeting13092017
+### Meeting 13-09-2017
 
 Contains pictures of flowcharts that show how different users are going to interact with the software.
 

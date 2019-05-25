@@ -18,5 +18,4 @@ Contains the project charter, work breakdown structure (WBS) and software docume
 ### Raw
 
 Contains pictures and a transcript of Atlantic Group's business case.  
-These pictures were used as reference before the company published the original presentation (which can now
-be seen in the HUB385Slides folder).  
+These pictures were used as reference before the company published the original presentation (which can now be seen in the HUB385Slides folder).  

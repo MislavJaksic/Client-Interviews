@@ -21,3 +21,9 @@ We drew diagrams of how parts of the program were going to interact with each ot
 We also discussed how we are going to design the interface.  
 I took pictures of both.  
 After we analysed the problem I took the liberty of creating a project charter, work breakdown structure (WBS) and software documentation.  
+
+### Candidate Interviews
+
+Job applicants could be considered external clients. If we stretch the definition.  
+
+[US Office of Personnel Management](https://www.opm.gov/policy-data-oversight/assessment-and-selection/)

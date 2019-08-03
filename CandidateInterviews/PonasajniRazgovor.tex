@@ -1,0 +1,165 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{float} % "place table exactly here" package
+
+\usepackage{expl3}
+\ExplSyntaxOn
+\cs_new_eq:NN \Repeat \prg_replicate:nn
+\ExplSyntaxOff
+
+\usepackage{formular}
+\newFRMfield{pagefield}{120mm}
+\newFRMfield{pageminusfield}{116mm}
+\newFRMfield{longfield}{30mm}
+\newFRMfield{shortfield}{5mm}
+
+\usepackage{indentfirst}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{2mm}
+
+\usepackage{setspace}
+\onehalfspacing
+
+\renewcommand{\arraystretch}{2.0}
+
+\newcommand{\question}
+[2]
+{
+#1 \hfill #2
+
+S \useFRMfield{pageminusfield}
+
+\useFRMfield{pagefield}
+
+A \useFRMfield{pageminusfield}
+
+\useFRMfield{pagefield}
+
+\useFRMfield{pagefield}
+
+R \useFRMfield{pageminusfield}
+
+\useFRMfield{pagefield}
+
+}
+
+\title{Razgovor s kandidatom}
+\author{Mislav Jakšić}
+\date{\today}
+
+
+
+\begin{document}
+
+\maketitle
+
+
+
+\section{Podaci}
+
+\begin{table}[H]
+\begin{tabular}{llll}
+Ispitanik & \useFRMfield{longfield} & Datum i vrijeme & \useFRMfield{longfield} \\
+Ispitivač & \useFRMfield{longfield} &                 &
+\end{tabular}
+\end{table}
+
+
+
+\section{Koraci}
+
+\begin{table}[H]
+\begin{tabular}{llll}
+Ponašajni razgovor   & \useFRMfield{shortfield} & Projekt        & \useFRMfield{shortfield} \\
+Tehničko ispitivanje & \useFRMfield{shortfield} & Simulirani rad & \useFRMfield{shortfield}
+\end{tabular}
+\end{table}
+
+
+
+\section{Pitanja kandidata}
+
+\Repeat{6}{
+\useFRMfield{pagefield}
+
+}
+
+
+
+\newpage
+\section{CV}
+
+
+\subsection{Obrazovanje}
+
+\question{Zašto ste upisali \useFRMfield{longfield}?}
+
+
+\subsection{Iskustvo i projekti}
+
+\question{Zašto ste izabrali rad u \useFRMfield{longfield}?}
+
+\newpage
+\question{Kada ste se osjećali najugodnije na poslu ili projektu?}
+
+Što očekujete od (projekt, rad) \useFRMfield{longfield}?
+
+\Repeat{5}{
+\useFRMfield{pagefield}
+
+}
+
+
+\subsection{Bilješke i odgovori}
+
+\Repeat{9}{
+\useFRMfield{pagefield}
+
+}
+
+
+
+\newpage
+\section{Pitanja}
+
+
+\subsection{Timski rad}
+
+\question{1. Opišite trenutak kada ste članu tima promijenili mišljenje.}
+
+\question{5. Opišite najzahtjevniji razgovor s članom tima.}
+
+% \question{Opišite kako ste pomogli drugoj osobi.}
+
+
+\newpage
+\subsection{Usmeno izražavanje}
+
+\question{2. Koji je najveći problem koji ste zatekli na projektu?}
+
+\question{6. Opišite svoju najveću grešku ili neuspjeh na projektu.}
+
+% \question{Što najviše želite promijeniti na prethodnom projektu?}
+
+
+\newpage
+\subsection{Društvene vještine}
+
+\question{3. Opišite trenutak kada ste otkrili svoju najveću slabost.}
+
+\question{7. Opišite trenutak kada ste drugome rekli ono što ne želi čuti.}
+
+
+\newpage
+\subsection{Rješavanje sukoba}
+
+\question{4. Opišite trenutak kada ste nadređenom rekli "ne".}
+
+\question{8. Opišite svoj najveći sukob s članom tima.}
+
+
+
+\end{document}

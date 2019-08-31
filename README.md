@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="600" src="images/Interview.png" alt="Interview picture"></a>
+  <img width="300" src="images/Interview.png" alt="Interview picture"></a>
 </p>
 
 ## Client Interviews

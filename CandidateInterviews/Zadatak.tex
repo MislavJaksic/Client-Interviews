@@ -6,13 +6,13 @@
 \hypersetup{
 colorlinks=true,
 linkcolor=blue,
-filecolor=magenta,      
+filecolor=magenta,
 urlcolor=blue,
 }
 
 \urlstyle{same}
 
-\title{Simulirani rad: izrada mikroservisa}
+\title{Take Home Challenge: API}
 \author{Mislav Jakšić}
 \date{\today}
 
@@ -20,24 +20,35 @@ urlcolor=blue,
 
 \maketitle
 
-\section{Zadatak}
+\section{Task}
 
-Potrebno je sagraditi mikroservis koji se sastoji od REST API i baze podataka. Korisnik koristeći API može upisati i pročitati podatke. Podaci se odnose kao 1:N ili N:N.
+Please design and implement a web based API that steps through the Fibonacci sequence.
 
-\section{Primjer mikroservisa}
+The API must expose 3 endpoints that can be called via HTTP requests:
+\begin{itemize}
+  \item current - returns the current number in the sequence
+  \item next - returns the next number in the sequence
+  \item previous - returns the previous number in the sequence
+\end{itemize}
 
-Postoje zoološki vrtovi i životinje. Korisnik mikroservisom registrira zoološke vrtove i životinje koje pripadaju svakom vrtu. Životinja pripada jednom ili nijednom vrtu (1:N).
+\subsection{Example}
 
-Potrebno je osmisliti i riješiti proizvoljni problem, po uzoru na primjer. Jednostavnost, potpunost, lakoća promjene i skalabilnost mikroservisa su od velike važnosti. Vrijeme rješavanja neće se uzeti u obzir.
+```
+current -> 0
+next -> 1
+next -> 1
+next -> 2
+previous -> 1
+```
 
-\section{Ukratko}
+\subsection{Requirements}
 
 \begin{itemize}
-  \item Ulaz: HTTP poruka.
-  \item Izlaz: primjerena reprezentacija.
+  \item The API must be able to handle high throughput (~1k requests per second).
+  \item The API should also be able to recover and restart if it unexpectedly crashes.
   \item Izrada Create, Read, Update, Delete, List (CRUDL) REST API.
-  \item Domena problema je proizvoljna.
-  \item Radni okvir, baza podataka i alat za ispitivanje su proizvoljni.
+  \item Assume that the API will be running on a small machine with 1 CPU and 512MB of RAM.
+  \item You may use any programming language/framework of your choice.
 \end{itemize}
 
 

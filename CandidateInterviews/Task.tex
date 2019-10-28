@@ -1,6 +1,12 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 
+\usepackage{listings}
+
+\usepackage{indentfirst}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{2mm}
+
 \usepackage{hyperref}
 
 \hypersetup{
@@ -31,22 +37,23 @@ The API must expose 3 endpoints that can be called via HTTP requests:
   \item previous - returns the previous number in the sequence
 \end{itemize}
 
+
 \subsection{Example}
 
-```
-current -> 0
-next -> 1
-next -> 1
-next -> 2
+\begin{lstlisting}
+current  -> 0
+next     -> 1
+next     -> 1
+next     -> 2
 previous -> 1
-```
+\end{lstlisting}
+
 
 \subsection{Requirements}
 
 \begin{itemize}
-  \item The API must be able to handle high throughput (~1k requests per second).
+  \item The API must be able to handle high throughput (1k requests per second).
   \item The API should also be able to recover and restart if it unexpectedly crashes.
-  \item Izrada Create, Read, Update, Delete, List (CRUDL) REST API.
   \item Assume that the API will be running on a small machine with 1 CPU and 512MB of RAM.
   \item You may use any programming language/framework of your choice.
 \end{itemize}

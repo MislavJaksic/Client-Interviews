@@ -8,7 +8,7 @@ Contains notes, pictures, program and project documentation produced during exte
 
 ### [Atlantic Group](https://www.atlantic.hr/en/)
 
-During Atlantic's business case presentation I decided to be a notekeeper.  
+During Atlantic's business case presentation I decided to be a note keeper.  
 I paid careful attention to the presentation and took down notes.  
 
 Atlantic said they would publish the slideshow, but not when if would be available.  
@@ -20,10 +20,10 @@ We had multiple team meetings during which we discussed the business case.
 We drew diagrams of how parts of the program were going to interact with each other.  
 We also discussed how we are going to design the interface.  
 I took pictures of both.  
-After we analysed the problem I took the liberty of creating a project charter, work breakdown structure (WBS) and software documentation.  
+After we analyzed the problem I took the liberty of creating a project charter, work breakdown structure (WBS) and software documentation.  
 
 ### Candidate Interviews
 
-Job applicants could be considered external clients. If we stretch the definition.  
+Job applicants should be treated like clients. They are interviewing me as much as I'm interviewing them!  
 
 [US Office of Personnel Management](https://www.opm.gov/policy-data-oversight/assessment-and-selection/)
